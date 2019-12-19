@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "210639923145",
+    "firebase_url": "https://mtltaxiapp.firebaseio.com",
+    "project_id": "mtltaxiapp",
+    "storage_bucket": "mtltaxiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210639923145:android:c8a9728f006eda3501aa18",
+        "android_client_info": {
+          "package_name": "com.example.mtltaxiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210639923145-bfr15c7lbhu3bnti3clb7lu6ksbo5av2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKJcjEVvIjy6ea98js1JVx52KBSaBDGJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210639923145-bfr15c7lbhu3bnti3clb7lu6ksbo5av2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

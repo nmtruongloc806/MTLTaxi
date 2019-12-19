@@ -8,16 +8,16 @@ class SignInBloc {
   Stream get passStream => _passController.stream;
 
   bool CheckValidSignIn(String email, String pass) {
-    if (email == null || email.length < 6 || !email.contains("@")) {
-      _emailController.sink.addError("Email Invalid");
-      return false;
-    }
+    // if (email == null || email.length < 6 || !email.contains("@")) {
+    //   _emailController.sink.addError("Email Invalid");
+    //   return false;
+    // }
 
     _emailController.add("OK");
-    if (pass == null || pass.length < 6) {
-      _passController.sink.addError("Email Invalid");
-      return false;
-    }
+    // if (pass == null || pass.length < 6) {
+    //   _passController.sink.addError("Email Invalid");
+    //   return false;
+    // }
     _passController.add("OK");
 
     return true;
